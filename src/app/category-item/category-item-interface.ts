@@ -1,4 +1,4 @@
 export interface CategoryItemInterface {
-    categoryImage:string;
+    categoryImage?:string;
     categoryTitle:string;
 }

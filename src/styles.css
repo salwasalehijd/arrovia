@@ -1,4 +1,5 @@
-
+/* @import "ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"; */
+/* @import "ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css"; */
 html,
 body {
     height: 100%;
@@ -16,4 +17,11 @@ body {
 
 .purple {
     color: #7600FF;
+}
+
+/*  */
+
+app-recomended app-card .card-container {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
 }

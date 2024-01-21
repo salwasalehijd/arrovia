@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
 import {CardInterface} from '../card/card-interface'
 @Component({
-  selector: 'app-filter',
-  templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.css'],
-  
+  selector: 'app-recomended',
+  templateUrl: './recomended.component.html',
+  styleUrls: ['./recomended.component.css']
 })
-export class FilterComponent {
-  title:string='عنوان التصنيف أو الفلتر'
+export class RecomendedComponent {
+  title:string='ضيوفنا يفضلون'
   filtertitle:string='تصفية'
   carddetails: CardInterface[] =[
     {
