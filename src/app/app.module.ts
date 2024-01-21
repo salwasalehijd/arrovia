@@ -8,6 +8,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { CardComponent } from './card/card.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CategoriesComponent } from './categories/categories.component';
+import { CategoryItemComponent } from './category-item/category-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CategoriesComponent } from './categories/categories.component';
     FilterComponent,
     CardComponent,
     AppComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    CategoryItemComponent
   ],
   imports: [
     BrowserModule,
