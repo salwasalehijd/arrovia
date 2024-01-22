@@ -50,4 +50,5 @@ export class FooterComponent {
       categoryTitle:'مسابح'
     },
   ]
+  listOneTitle:string='الدعم الفني'
 }
