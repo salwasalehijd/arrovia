@@ -1,9 +1,10 @@
-<div class="cont">
-    <div>Some tags before</div>
-    <owl-carousel-o [options]="customOptions">
-      <ng-template carouselSlide >Slide 1</ng-template>  
-      <ng-template carouselSlide >Slide 2</ng-template>  
-      <ng-template carouselSlide >Slide 3</ng-template>  
-    </owl-carousel-o>
-    <div>Some tags after</div>
-</div>
+
+<owl-carousel-o [options]="customOptions">
+
+  <ng-container *ngFor="let slide of slidesStore">
+    <ng-template carouselSlide class=" img-container">
+      <img class="img" [src]="slide.src" [alt]="slide.alt" >
+    </ng-template>
+  </ng-container>
+
+</owl-carousel-o>

@@ -9,43 +9,43 @@ import {CategoryItemInterface} from '../category-item/category-item-interface'
 export class CategoriesComponent {
   categoriesDetails:CategoryItemInterface[]=[
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 688.svg',
         categoryTitle:'فندق'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 687.svg',
         categoryTitle:'قصور'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 686.svg',
         categoryTitle:'فيلا'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 686.svg',
         categoryTitle:'شقة'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 685.svg',
         categoryTitle:'شواطئ'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 684.svg',
         categoryTitle:'مخيم'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 683.svg',
         categoryTitle:'جبلي'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 682.svg',
         categoryTitle:'استراحة'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 681.svg',
         categoryTitle:'ريف'
       },
       {
-        categoryImage:'assets/category-placeholder.png',
+        categoryImage:'assets/aroovia-icons/Group 680.svg',
         categoryTitle:'مسابح'
       },
     ]

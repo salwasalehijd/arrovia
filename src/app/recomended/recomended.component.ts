@@ -6,11 +6,13 @@ import {CardInterface} from '../card/card-interface'
   styleUrls: ['./recomended.component.css']
 })
 export class RecomendedComponent {
+
+
   title:string='ضيوفنا يفضلون'
   filtertitle:string='تصفية'
   carddetails: CardInterface[] =[
     {
-      image: '../../assets/card.png',
+      image: '../../assets/aroovia-icons/swimming-pool.png',
       title: 'شاليهات هايسيندا',
       raiting: 8.7,
       location_city: 'مرسى مطروح',
@@ -20,7 +22,7 @@ export class RecomendedComponent {
       duration: 'في الليلة'
     },
     {
-      image: '../../assets/card.png',
+      image: '../../assets/aroovia-icons/luxury-place-resort.png',
       title: 'فيلا خاصة بمسبح عائلي',
       raiting: 8.7,
       location_city: 'مرسى مطروح',
@@ -30,7 +32,7 @@ export class RecomendedComponent {
       duration: 'في الليلة'
     },
     {
-      image: '../../assets/card.png',
+      image: '../../assets/aroovia-icons/169741.png',
       title: 'فيلا فخمة على الجبل',
       raiting: 8.7,
       location_city: 'مرسى مطروح',
@@ -41,7 +43,7 @@ export class RecomendedComponent {
     },
  
     {
-      image: '../../assets/card.png',
+      image: '../../assets/aroovia-icons/2150683421.png',
       title: 'غرفة فردية بواجهة على البح...',
       raiting: 8.7,
       location_city: 'مرسى مطروح',

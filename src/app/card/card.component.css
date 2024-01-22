@@ -6,7 +6,7 @@
     margin: unset;
 }
 .card{
-    width: 400px;
+    width: 300px;
     gap: 20px;
 
 }
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
 }
 .card-img{
-    width: 400px;
+    width: 300px;
     height: 204px;
     position: relative;
 }

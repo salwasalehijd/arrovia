@@ -19,17 +19,30 @@ export class DealsComponent {
         items: 1
       },
       400: {
-        items: 2
+        items: 1
       },
       740: {
-        items: 3
+        items: 2.5
       },
       940: {
-        items: 4
+        items: 2.5
       }
     },
-    nav: true
+    nav: false
   }
-  
 
+  slidesStore: any[] = [{
+    src: 'assets/aroovia-icons/swimming-pool.png',
+    alt: 'img'
+  },
+  {
+    src: 'assets/aroovia-icons/swimming-pool.png',
+    alt: 'img'
+  }, {
+    src: 'assets/aroovia-icons/swimming-pool.png',
+    alt: 'img'
+  }
+
+
+  ]
 }

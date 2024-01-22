@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.815" height="13.136" viewBox="0 0 12.815 13.136">
+  <g id="Single_Bed" data-name="Single Bed" transform="translate(-4 -4)">
+    <path id="Path_589" data-name="Path 589" d="M37.922,42H36v.32a.641.641,0,0,0,.641.641h.641a.641.641,0,0,0,.641-.641Z" transform="translate(-21.748 -25.825)"/>
+    <path id="Path_590" data-name="Path 590" d="M7.922,42H6v.32a.641.641,0,0,0,.641.641h.641a.641.641,0,0,0,.641-.641Z" transform="translate(-1.359 -25.825)"/>
+    <path id="Path_591" data-name="Path 591" d="M20.767,16.282v.32H15v-.32A1.282,1.282,0,0,1,16.282,15h3.2A1.282,1.282,0,0,1,20.767,16.282Z" transform="translate(-7.476 -7.476)"/>
+    <path id="Path_592" data-name="Path 592" d="M15.65,4H9.243A2.245,2.245,0,0,0,7,6.243V9.427a2.88,2.88,0,0,1,1.282-.3h.641v-.32a1.922,1.922,0,0,1,1.922-1.922h3.2a1.922,1.922,0,0,1,1.922,1.922v.32h.641a2.879,2.879,0,0,1,1.281.3V6.243A2.245,2.245,0,0,0,15.65,4Z" transform="translate(-2.039)"/>
+    <path id="Path_593" data-name="Path 593" d="M4,34v1.282a.641.641,0,0,0,.641.641H16.175a.641.641,0,0,0,.641-.641V34Z" transform="translate(0 -20.388)"/>
+    <path id="Path_594" data-name="Path 594" d="M16.815,25.2v-.961A2.243,2.243,0,0,0,14.573,22H6.243A2.243,2.243,0,0,0,4,24.243V25.2Z" transform="translate(0 -12.233)"/>
+  </g>
+</svg>

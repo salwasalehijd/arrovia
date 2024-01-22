@@ -9,15 +9,15 @@ export class CloseDestinationsComponent {
 images:any[]=[
 {
   title:'الرياض',
-  imgsrc:'assets/card.png'
+  imgsrc:'assets/aroovia-icons/riyad.png'
 },
 {
   title:'دبي',
-  imgsrc:'assets/card.png'
+  imgsrc:'assets/aroovia-icons/dubai.png'
 },
 {
   title:'القاهرة',
-  imgsrc:'assets/card.png'
+  imgsrc:'assets/aroovia-icons/cairo.png'
 }
 ]
 }
