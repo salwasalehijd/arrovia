@@ -1,12 +1,38 @@
 <div class="grey-container">
     <div class="padding">
         <div class="categories">
+            <p class="categoryTitle">{{categoriesTitle}}</p>
             <app-category-item [categories]="categoriesDetails"></app-category-item>
         </div>
-        <div class="footer-list">
-            <div class="list">
-                <p class="list-one-title">{{listOneTitle}}</p>
+        <div class="footer-container">
+            <div class="footer-list">
+                <div class="list">
+                    <p class="list-one-title">{{listOneTitle}}</p>
+                    <p class="list-one-subtitle">{{categoriesSubtitle}}</p>
+                    <p class="list-one-subtitle">{{categoriesSubtitleTwo}}</p>
+                </div>
+            </div>
+            <div class="terms-and-conditions">
+                <div *ngFor="let termsAndCondition of termsAndConditions">
+                    <div class="footer-list " >
+                        <div class="list" >
+                            <p class="terms-and-conditions-title">
+                                {{termsAndCondition.termsAndConditionsTitle}}
+                            </p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleOne}}</p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleTwo}}</p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleThree}}</p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleFour}}</p>
+                        </div>
+                        <div class="icons">
+
+                        </div>
+                    </div>
+                </div>
+              
             </div>
         </div>
+     
+        
     </div>
 </div>

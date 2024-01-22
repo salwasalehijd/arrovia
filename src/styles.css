@@ -25,3 +25,8 @@ app-recomended app-card .card-container {
     flex-wrap: nowrap !important;
     overflow-x: auto;
 }
+app-footer app-category-item .category-container{
+
+padding-left: 0 !important;
+padding-right: 0 !important;
+}

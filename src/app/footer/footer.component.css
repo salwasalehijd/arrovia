@@ -1,7 +1,8 @@
 .grey-container{
     background-color: #F0F0F0;
+    direction: rtl;
 }
-.paddding{
+.padding{
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -11,4 +12,37 @@ color: #7E7E7E;
 }
 .grey-container{
     direction: rtl;
+}
+/* .footer-list{
+    width:20%;
+} */
+.list-one-title{
+    font-size: 16px;
+}
+.categories{
+    border-bottom: 2px solid #E8E8E8;
+}
+.categoryTitle{
+    color: #7E7E7E;
+    font-size: 16px;
+}
+.list-one-subtitle{
+    font-size: 13px;
+}
+
+.footer-container{
+    display: flex;
+}
+.terms-and-conditions{
+    display: flex;
+}
+.list{
+    width: 200px;
+}
+.terms-and-conditions-title{
+    color: #7E7E7E;
+    font-size: 16px;
+}
+.terms-and-conditions-subtitle{
+    font-size: 13px;
 }

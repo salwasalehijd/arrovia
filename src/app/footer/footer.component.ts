@@ -51,4 +51,32 @@ export class FooterComponent {
     },
   ]
   listOneTitle:string='الدعم الفني'
+  categoriesTitle:string='اختر المكان المفضل لك'
+  categoriesSubtitle:string='مركز الدعم'
+  categoriesSubtitleTwo:string='الأسئلة الشائعة'
+
+  termsAndConditions:any[]=[
+    {
+      termsAndConditionsTitle:'الشروط والأحكام',
+      termsAndConditionsSubtitleOne:'الشروط والأحكام',
+      termsAndConditionsSubtitleTwo:'اتفاقية الخصوصية',
+      termsAndConditionsSubtitleThree:'اتفاقية الإستخدام',
+      termsAndConditionsSubtitleFour:'سياسة الإلغاء'
+  },
+  {
+    termsAndConditionsTitle:'الشروط والأحكام',
+    termsAndConditionsSubtitleOne:'الشروط والأحكام',
+    termsAndConditionsSubtitleTwo:'اتفاقية الخصوصية',
+    termsAndConditionsSubtitleThree:'اتفاقية الإستخدام',
+    termsAndConditionsSubtitleFour:'سياسة الإلغاء'
+},
+{
+  termsAndConditionsTitle:'الشروط والأحكام',
+  termsAndConditionsSubtitleOne:'الشروط والأحكام',
+  termsAndConditionsSubtitleTwo:'اتفاقية الخصوصية',
+  termsAndConditionsSubtitleThree:'اتفاقية الإستخدام',
+  termsAndConditionsSubtitleFour:'سياسة الإلغاء'
+}
+]
+
 }
