@@ -11,10 +11,10 @@
 }
 .title{
     font-size: 24.75px;
-    font-weight: 900;
+   font-family: 'black';
 }
 .filter-title{
-    font-weight: 900;
+    font-family: 'black';
 }
 .just{
     justify-content: space-between;

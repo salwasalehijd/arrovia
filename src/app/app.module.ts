@@ -18,6 +18,9 @@ import { MightLikeComponent } from './might-like/might-like.component';
 import { DownloadComponent } from './download/download.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SearchcardsComponent } from './searchcards/searchcards.component';
+import { HeaderCarouselComponent } from './header-carousel/header-carousel.component';
 @NgModule({
   declarations: [
     
@@ -33,6 +36,9 @@ import { FooterComponent } from './footer/footer.component';
     DownloadComponent,
     HomeComponent,
     FooterComponent,
+    NavbarComponent,
+    SearchcardsComponent,
+    HeaderCarouselComponent,
     
   ],
   imports: [

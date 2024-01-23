@@ -14,25 +14,43 @@
             </div>
             <div class="terms-and-conditions">
                 <div *ngFor="let termsAndCondition of termsAndConditions">
-                    <div class="footer-list " >
-                        <div class="list" >
+                    <div class="footer-list ">
+                        <div class="list">
                             <p class="terms-and-conditions-title">
                                 {{termsAndCondition.termsAndConditionsTitle}}
                             </p>
-                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleOne}}</p>
-                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleTwo}}</p>
-                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleThree}}</p>
-                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleFour}}</p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleOne}}
+                            </p>
+                            <p class="terms-and-conditions-subtitle">{{termsAndCondition.termsAndConditionsSubtitleTwo}}
+                            </p>
+                            <p class="terms-and-conditions-subtitle">
+                                {{termsAndCondition.termsAndConditionsSubtitleThree}}</p>
+                            <p class="terms-and-conditions-subtitle">
+                                {{termsAndCondition.termsAndConditionsSubtitleFour}}</p>
                         </div>
-                        <div class="icons">
 
-                        </div>
+                    </div>
+
+                </div>
+                <div class="icons list">
+                    <div>
+                        <img src="assets/aroovia-icons/x.svg" alt="" class="social-media-icons">
+                        <img src="assets/aroovia-icons/Icon awesome-snapchat-ghost.svg" alt=""
+                            class="social-media-icons">
+                        <img src="assets/aroovia-icons/Icon feather-instagram.svg" alt="" class="social-media-icons">
                     </div>
                 </div>
-              
+            </div>
+        
+        </div>
+
+        <div class="footer-bottom">
+            <div class="allrightsreserved">
+              <p>  {{allRightsReserved}}</p>
+            </div>
+            <div>
+            <p>{{developedBy}}</p>
             </div>
         </div>
-     
-        
     </div>
 </div>

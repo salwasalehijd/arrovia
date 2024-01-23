@@ -50,11 +50,12 @@ export class FooterComponent {
       categoryTitle:'مسابح'
     },
   ]
-  listOneTitle:string='الدعم الفني'
-  categoriesTitle:string='اختر المكان المفضل لك'
-  categoriesSubtitle:string='مركز الدعم'
-  categoriesSubtitleTwo:string='الأسئلة الشائعة'
-
+  listOneTitle:string='الدعم الفني';
+  categoriesTitle:string='اختر المكان المفضل لك';
+  categoriesSubtitle:string='مركز الدعم';
+  categoriesSubtitleTwo:string='الأسئلة الشائعة';
+  allRightsReserved:string='جميع الحقوق محفوظة أروفيا 2023';
+  developedBy:string='تصميم وبرمجة'
   termsAndConditions:any[]=[
     {
       termsAndConditionsTitle:'الشروط والأحكام',

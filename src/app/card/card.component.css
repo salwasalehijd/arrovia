@@ -43,6 +43,7 @@
 .muted{
     color: #7E7E7E;
     font-size: 9.75px;
+    font-family: 'medium';
 }
 .rating{
     background-color: #7600FF;
@@ -56,6 +57,7 @@
 .rating p{
     margin: unset;
     color: #FFFFFF;
+    font-family: 'heavy';
 }
 .heart{
     position: absolute;
@@ -79,11 +81,16 @@
 }
 .title p{
     font-size: 16px;
+    font-family: 'heavy'
 }
 
 
 
 .price{
     font-size: 12px;
+    font-family: 'black';
 }
 
+.modify-font{
+    font-family: 'heavy';
+}

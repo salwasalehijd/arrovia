@@ -21,7 +21,7 @@ export class CategoriesComponent {
         categoryTitle:'فيلا'
       },
       {
-        categoryImage:'assets/aroovia-icons/Group 686.svg',
+        categoryImage:'assets/aroovia-icons/bed.svg',
         categoryTitle:'شقة'
       },
       {

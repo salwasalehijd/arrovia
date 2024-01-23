@@ -5,17 +5,21 @@
 
 .contianer{
     direction: rtl;
-    padding: 10%;
-    padding: 10%;
-  
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-top: 10%;
 }
 .title{
     font-size: 24.75px;
-    font-weight: 900;
+   font-family: 'black';
 }
 .filter-title{
-    font-weight: 900;
+   font-size: 15.75px;
+   color: #7600FF;
+   font-family: 'black';
 }
 .just{
     justify-content: space-between;
+   
 }

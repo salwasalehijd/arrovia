@@ -18,6 +18,7 @@ color: #7E7E7E;
 } */
 .list-one-title{
     font-size: 16px;
+    font-family: 'heavy';
 }
 .categories{
     border-bottom: 2px solid #E8E8E8;
@@ -37,12 +38,35 @@ color: #7E7E7E;
     display: flex;
 }
 .list{
-    width: 200px;
+    width: 240px;
 }
 .terms-and-conditions-title{
     color: #7E7E7E;
     font-size: 16px;
+    font-family: 'heavy';
 }
 .terms-and-conditions-subtitle{
     font-size: 13px;
+    font-family: 'medium';
+}
+
+.social-media-icons{
+    width: 14.23px;
+    height: 14.57px;
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+}
+
+.categoryTitle{
+    font-family: 'heavy';
+}
+.footer-bottom{
+    font-family: 'medium';
+    display: flex;
+    justify-content: space-between;
+    font-size: 9.75px;
 }
