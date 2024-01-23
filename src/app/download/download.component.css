@@ -1,9 +1,41 @@
 .cont{
-    background-color: #7600FF;
+    background-image: url(../../assets/aroovia-icons/Group698.png);
+    direction: rtl;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title{
     color: #FFFFFF;
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'medium';
+    margin: 0px !important;
+}
+
+.download-img{
+    width: 86px;
+    height: 86px;
+}
+.subtitle{
+    color: #FFFFFF;
+    font-size: 11px;
+    font-size: 'medium';
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.center div{
+    display: flex;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
 }

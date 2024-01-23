@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class DownloadComponent {
 downloadTitle:string='حمل تطبيق أروڤيا لأبل وأندرويد'
+downloadSubTitle:string='التطبيق يدعم الإصدار 14+'
 }

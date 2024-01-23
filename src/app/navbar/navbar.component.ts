@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+userName:string='يزيد العمري'
+profileList:boolean=false
+languge:string='EN'
+openProfileList(){
+  this.profileList=!this.profileList;
+}
 }
