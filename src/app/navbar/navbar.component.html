@@ -1,8 +1,8 @@
 <div class="relative">
-    <!-- <app-header-carousel></app-header-carousel> -->
-    <div class="backgroundimg">
+    <app-header-carousel *ngIf="isHomeRoute"></app-header-carousel>
+     <div class="backgroundimg" *ngIf="!isHomeRoute">
         <img src="../../assets/aroovia-icons/carousel-image.png" alt="">
-    </div>
+    </div> 
 <div class="container">
     <div class="padding">
         <div class="row-cont">
@@ -14,8 +14,8 @@
 
                     <p>اضف عقارك</p>
                 </button>
-                <button class="login">
-                    <p>تسجيل الدخول أو الاشتراك</p>
+                <button class="login" mat-button  (click)="openDialog()">
+                    <p  >تسجيل الدخول أو الاشتراك</p>
                 </button>
            <div>
             <div class="profile" (click)="openProfileList()">

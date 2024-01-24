@@ -12,6 +12,9 @@
     position: absolute;
     top: 0;
     z-index: 10;
+    right: 0px;
+    left: 0px;
+
 
 }
 .backgroundimg{
