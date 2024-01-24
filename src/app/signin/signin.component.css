@@ -2,6 +2,7 @@
     font-size: 24.75px;
     font-family: 'black';
     text-align: center;
+    color: #000000;
 }
 
 .container{
@@ -35,6 +36,7 @@ input::placeholder{
     font-size: 19px;
     font-family: 'heavy';
     color: #D9D9D9;
+    line-height: 20px;
 }
 input{
     border: unset;
@@ -50,6 +52,7 @@ input{
     border: 3px solid #F0F0F0;
     width: 100%;
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 mat-dialog-content{
@@ -66,15 +69,57 @@ mat-dialog-content{
 .areacode p{
     font-size: 10px;
     color: #A3A3A3;
-    font-family: 'medium';
+    font-family: 'heavy';
 }
 .areacodenumber{
     font-size: 19px !important;
     font-family: 'heavy';
     margin: 0px;
+    padding-left:10px;
 }
 .areacodecontainer{
     display: flex;
     align-items: center;
 
+}
+
+.submitButton{
+  
+  
+    /* Resetting border */
+    border: none;
+  border-radius: 20px;
+  height: 50px;
+    /* Resetting background and text color */
+    
+    background-color: #D9D9D9;
+    color: white;
+  
+    /* Resetting cursor */
+    cursor: pointer;
+  
+    /* Resetting font styles */
+    font-family: 'heavy';
+    font-size: 17px;
+ 
+  
+    /* Resetting other styles */
+ width: 396px;
+}
+
+.purplesucessbutton{
+    background-color: #7600FF;
+}
+
+.areacode {
+    padding-left: 20px;
+}
+
+button.submitButton {
+    margin-top: 25px;
+}
+
+.phonenumberlabel{
+    padding:0;
+    margin: 0px !important;
 }

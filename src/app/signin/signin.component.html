@@ -1,20 +1,25 @@
+<!-- && (loginForm.get('phoneNumber').dirty || loginForm.get('phoneNumber').touched) -->
 <mat-dialog-content>
     <mat-icon mat-button mat-dialog-close>close</mat-icon>
     <div class="container">
         <p class="greeting">أهلا بك</p>
-        <form >
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
 
-            <div class="input-container">
-                <input type="text" placeholder="50xxxxxxxx" ng-pattern="/^5\d{8}$/">
+            <div class="input-container"  [ngClass]="{
+                'green-border': loginForm.get('phoneNumber')?.valid
+                               
+              }">
+      
+                <input type="text" placeholder="50xxxxxxxx" formControlName="phoneNumber" >
                 <div class="areacode">
-                    <p>رقم الجوال</p>
+                    <p class="phonenumberlabel">رقم الجوال</p>
               <div class="areacodecontainer">
                 <p class="areacodenumber">{{areaCode}}</p>
                 <img src="../../assets/aroovia-icons/Flag.svg" alt="">
               </div>
                 </div>
             </div>
-            <button >المتابعة</button>
+            <button type="submit" class="submitButton" [ngClass]="{'purplesucessbutton': loginForm?.valid}">المتابعة</button>
         </form>
 
     </div>
