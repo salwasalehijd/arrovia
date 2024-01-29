@@ -1,29 +1,88 @@
 <!-- && (loginForm.get('phoneNumber').dirty || loginForm.get('phoneNumber').touched) -->
-<mat-dialog-content>
+<mat-dialog-content class="rtl">
+  <div class="left">
     <mat-icon mat-button mat-dialog-close>close</mat-icon>
-    <div class="container">
-        <p class="greeting">أهلا بك</p>
-        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-
-            <div class="input-container"  [ngClass]="{
-                'green-border': loginForm.get('phoneNumber')?.valid
-                               
-              }">
-      
-                <input type="text" placeholder="50xxxxxxxx" formControlName="phoneNumber" >
-                <div class="areacode">
-                    <p class="phonenumberlabel">رقم الجوال</p>
-              <div class="areacodecontainer">
-                <p class="areacodenumber">{{areaCode}}</p>
-                <img src="../../assets/aroovia-icons/Flag.svg" alt="">
-              </div>
-                </div>
-            </div>
-            <button type="submit" class="submitButton" [ngClass]="{'purplesucessbutton': loginForm?.valid}">المتابعة</button>
-        </form>
-
+  </div>
+  <div class="container">
+    <p class="greeting" *ngIf="loginFormPhoneView">أهلا بك</p>
+    <div class="confirmation-contianer" *ngIf="! loginFormPhoneView">
+      <p class="confirmation-title">كود التحقق</p>
+      <p class="confirmation-subtitle">تم ارساله إلى</p>
+      <p class="confirmation-contact">966506060381+</p>
     </div>
-    
+    <form [formGroup]="loginFormPhone" (ngSubmit)="onSubmitPhone()" *ngIf="loginFormPhoneView">
+
+      <div class="input-container" [ngClass]="{
+                'green-border': loginFormPhone.get('phoneNumber')?.valid
+                   
+              }">
+
+        <input type="text" placeholder="50xxxxxxxx" formControlName="phoneNumber">
+        <div class="areacode">
+          <p class="phonenumberlabel">رقم الجوال</p>
+          <div class="areacodecontainer">
+            <p class="areacodenumber">{{areaCode}}</p>
+            <img src="../../assets/aroovia-icons/Flag.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="submitButton"
+        [ngClass]="{'purplesucessbutton': loginFormPhone?.valid}">المتابعة</button>
+    </form>
+
+
+    <form [formGroup]="validationFormPhone" *ngIf="codeFormPhoneView">
+      <div class="code"
+       [ngClass]="{
+        'green-border': validationFormPhone?.valid,
+        'red-border': !validationFormPhone?.valid && validationFormPhone.touched==true
+      }">
+        <div class="code-container">
+          <input type="text" class="validation-code-input" placeholder="_" formControlName="validationCodePhoneOne">
+          <input type="text" class="validation-code-input" placeholder="_" formControlName="validationCodePhoneTwo">
+          <input type="text" class="validation-code-input" placeholder="_" formControlName="validationCodePhoneThree">
+          <input type="text" class="validation-code-input" placeholder="_" formControlName="validationCodePhoneFour">
+        </div>
+      </div>
+      <button type="submit" class="submitButton-code">تأكيد الرمز</button>
+      <div>
+        <p class="duration-text">ستنتهي صلاحية الرمز خلال 1:59 دقيقة</p>
+      </div>
+      <div class="incorrect-container" *ngIf="validationFormPhone?.invalid && validationFormPhone.touched==true">
+        <p class="incorrect-text">الكود غير صحيح، برجاء التحقق مرة أخرى!</p>
+      </div>
+    </form>
+
+    <form *ngIf="emailFormView" [formGroup]="loginEmailForm" (ngSubmit)="onSubmitEmail()">
+      <div class="input-email-container" [ngClass]="{
+        'green-border': loginEmailForm.get('email')?.valid
+           
+      }">
+        <p class="input-label">
+          البريد الإلكتروني
+        </p>
+        <input type="text" placeholder="name@company.com" class="email-input">
+      </div>
+      <button type="submit" class="submitButton ">المتابعة</button>
+
+    </form>
+  </div>
+  <div class="divider">
+    <div class="divider-inner"></div>
+    <p class="divider-text">تسجيل آخر</p>
+    <div class="divider-inner"></div>
+
+  </div>
+
+  <div class="signin-options">
+    <div class="icons">
+      <div class="image pointer"  (click)="viewPhoneLogin()"  *ngIf="phoneButton"><img src="../../assets/aroovia-icons/phone-call-2.svg" alt=""
+         ></div>
+      <div class="image pointer" (click)="viewEmailLogin()" *ngIf="emailButton"><img src="../../assets/aroovia-icons/email-3.svg" alt="" >
+      </div>
+      <div class="image pointer"><img src="../../assets/aroovia-icons/apple-logo.svg" alt="" class="apple-logo"></div>
+      <div class="image pointer"><img src="../../assets/aroovia-icons/google-2.svg" alt=""></div>
+      <div class="image pointer"><img src="../../assets/aroovia-icons/facebook-2.svg" alt=""></div>
+    </div>
+  </div>
 </mat-dialog-content>
-
-

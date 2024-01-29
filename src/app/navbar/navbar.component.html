@@ -1,73 +1,75 @@
 <div class="relative">
     <app-header-carousel *ngIf="isHomeRoute"></app-header-carousel>
-     <div class="backgroundimg" *ngIf="!isHomeRoute">
+    <div class="backgroundimg" *ngIf="!isHomeRoute">
         <img src="../../assets/aroovia-icons/carousel-image.png" alt="">
-    </div> 
-<div class="container">
-    <div class="padding">
-        <div class="row-cont">
-            <div class="logo">
-
+    </div>
+    <div class="container">
+        <div class="padding">
+            <div class="row-cont">
+                <div class="logo">
+                </div>
+                <div class="row">
+                    <button class="add-realestate">
+                        <p>اضف عقارك</p>
+                    </button>
+                    <button class="login" mat-button (click)="openDialog()">
+                        <p>تسجيل الدخول أو الاشتراك</p>
+                    </button>
+                    <div>
+                        <div class="profile" (click)="openProfileList()">
+                            <div class="image"></div>
+                            <p class="username">{{userName}}</p>
+                        </div>
+                        <div class="profile-list" *ngIf="profileList">
+                            <ul>
+                                <li><img src="assets/aroovia-icons/Icon awesome-user-alt.svg" alt="">
+                                    <p>الإعدادات</p>
+                                </li>
+                                <li><img src="assets/aroovia-icons/Icon ionic-ios-notifications.svg" alt="">
+                                    <p>الإشعارات</p>
+                                </li>
+                                <li><img src="assets/aroovia-icons/Icon feather-log-out.svg" alt="">
+                                    <p>تسجيل الخروج</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <p class="languageLabel">{{languge}}</p>
+                        <mat-icon>arrow_drop_down</mat-icon>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <button class="add-realestate">
-
-                    <p>اضف عقارك</p>
-                </button>
-                <button class="login" mat-button  (click)="openDialog()">
-                    <p  >تسجيل الدخول أو الاشتراك</p>
-                </button>
-           <div>
-            <div class="profile" (click)="openProfileList()">
-                <div class="image"></div>
-                <p class="username">{{userName}}</p>
-            </div>
-            <div class="profile-list" *ngIf="profileList">
-                <ul>
-                    <li><img src="assets/aroovia-icons/Icon awesome-user-alt.svg" alt=""><p>الإعدادات</p></li>
-                    <li><img src="assets/aroovia-icons/Icon ionic-ios-notifications.svg" alt="">
-                    <p>الإشعارات</p></li>
-                    <li><img src="assets/aroovia-icons/Icon feather-log-out.svg" alt="">
-                    <p>تسجيل الخروج</p></li>
-                </ul>
-            </div>
-           </div>
-                <div class="language">
-                    <p class="languageLabel">{{languge}}</p>
-                    <mat-icon>arrow_drop_down</mat-icon>
+            <div class="nav-link-container">
+                <div class="nav-link">
+                    <p>الملف الشخصي</p>
+                </div>
+                <div class="nav-link">
+                    <p>الحجوزات</p>
+                </div>
+                <div class="nav-link button">
+                    <p>إدارة عقاراتي</p>
+                    <mat-icon>
+                        arrow_drop_down
+                    </mat-icon>
+                </div>
+                <div class="nav-link">
+                    <p>الطلبات</p>
+                </div>
+                <div class="nav-link notification">
+                    <p>الإشعارات</p>
+                    <div class="notification-icon"></div>
+                </div>
+                <div class="nav-link">
+                    <p>المفضلة</p>
+                </div>
+                <div class="nav-link">
+                    <p>الدعم الفني</p>
+                </div>
+                <div class="nav-link">
+                    <p>الأسئلة الشائعة</p>
                 </div>
             </div>
         </div>
-        <div class="nav-link-container">
-            <div class="nav-link" >
-                <p>الملف الشخصي</p>
-            </div>
-            <div class="nav-link">
-                <p>الحجوزات</p>
-            </div>
-            <div class="nav-link button">
-                <p>إدارة عقاراتي</p>
-                <mat-icon>
-                    arrow_drop_down
-                    </mat-icon>
-            </div>
-            <div class="nav-link">
-                <p>الطلبات</p>
-            </div>
-            <div class="nav-link notification">
-                <p>الإشعارات</p>
-                <div class="notification-icon"></div>
-            </div>
-            <div class="nav-link">
-                <p>المفضلة</p>
-            </div>
-            <div class="nav-link">
-                <p>الدعم الفني</p>
-            </div>
-            <div class="nav-link">
-                <p>الأسئلة الشائعة</p>
-            </div>
-        </div>
     </div>
-</div>
 </div>

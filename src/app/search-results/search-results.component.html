@@ -1,0 +1,44 @@
+<div class="container">
+<app-categories></app-categories>
+    <div class="header">
+        <div class="left-container">
+            <p class="search-results">نتيجة البحث</p>
+            <p class="number-of-results">
+                (24 نتيجة)
+            </p>
+            <div class="location-container">
+                <p class="location">
+                    هايسندا باي، مرسى مطروح مصر
+                </p>
+                <p class="date">
+                    من 24 يناير 2023 حتى 2 يناير 2024
+                </p>
+                <p class="guest-number">
+                    2 كبار، 1 طفل
+                </p>
+            </div>
+            <div class="edit-container">
+                <p>تعديل</p>
+                <mat-icon>
+                    arrow_back
+                </mat-icon>
+            </div>
+        </div>
+
+
+        <div class="edit-container">
+            <p class="edit-text">تصفية</p>
+            <img src="../../assets/aroovia-icons/Filter.svg" alt="">
+        </div>
+    </div>
+    <app-card [cards]="carddetails"></app-card>
+    <div class="navigation">
+        <mat-icon>chevron_right</mat-icon>
+<div class="active">
+    <p>1</p>
+</div>
+<p>2</p>
+
+        <mat-icon>chevron_left</mat-icon>
+    </div>
+</div>

@@ -7,7 +7,7 @@ body {
 
 body {
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+
 }
 
 .flex {
@@ -100,4 +100,7 @@ app-header-carousel .owl-dots{
     top: 70%;
     right: 50%;
     transform: translate(50%,-50%);
+}
+.pointer{
+    cursor: pointer;
 }

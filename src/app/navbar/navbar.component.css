@@ -80,10 +80,8 @@ button p {
 
 .login {
     background-color: #7600FF;
-    height: 31px;
     width: 136px;
     border-radius: 10px;
-
     border: none;
     outline: none;
     cursor: pointer;

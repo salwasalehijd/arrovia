@@ -1,52 +1,57 @@
-.greeting{
+.greeting {
     font-size: 24.75px;
     font-family: 'black';
     text-align: center;
     color: #000000;
 }
 
-.container{
-    direction: rtl;
+.container {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.title{
-    font-size:10px ;
+.title {
+    font-size: 10px;
     font-family: 'medium';
     color: #A3A3A3;
 }
-.areaCode{
+
+.areaCode {
     color: #A3A3A3;
     font-size: 19px;
     font-weight: 'heavy';
 }
+
 .codeandimg {
     display: flex;
     align-items: center;
 }
 
-.codeandimg p{
-margin: 0px;
+.codeandimg p {
+    margin: 0px;
 }
 
-input::placeholder{
+input::placeholder {
     font-size: 19px;
     font-family: 'heavy';
     color: #D9D9D9;
     line-height: 20px;
 }
-input{
+
+input {
     border: unset;
-    
+
 }
-.input{
+
+.input {
     padding-left: 20px;
     padding-right: 20px;
 }
-.input-container{
+
+.input-container {
     display: flex;
     justify-content: end;
     border: 3px solid #F0F0F0;
@@ -55,59 +60,51 @@ input{
     padding-bottom: 10px;
 }
 
-mat-dialog-content{
-    border-radius: 100px;
+mat-dialog-content {
+    /* border-radius: 100px; */
     width: 506px;
 }
-.img{
+
+.img {
     padding-right: 10px;
 }
 
-.green-border{
+.green-border {
     border: 3px solid #1BAF00;
 }
-.areacode p{
+
+.areacode p {
     font-size: 10px;
     color: #A3A3A3;
     font-family: 'heavy';
 }
-.areacodenumber{
+
+.areacodenumber {
     font-size: 19px !important;
     font-family: 'heavy';
     margin: 0px;
-    padding-left:10px;
+    padding-left: 10px;
 }
-.areacodecontainer{
+
+.areacodecontainer {
     display: flex;
     align-items: center;
 
 }
 
-.submitButton{
-  
-  
-    /* Resetting border */
+.submitButton {
     border: none;
-  border-radius: 20px;
-  height: 50px;
-    /* Resetting background and text color */
-    
+    border-radius: 20px;
+    height: 50px;
     background-color: #D9D9D9;
     color: white;
-  
-    /* Resetting cursor */
     cursor: pointer;
-  
-    /* Resetting font styles */
     font-family: 'heavy';
     font-size: 17px;
- 
-  
-    /* Resetting other styles */
- width: 396px;
+    width: 396px;
 }
 
-.purplesucessbutton{
+.purplesucessbutton {
     background-color: #7600FF;
 }
 
@@ -119,7 +116,179 @@ button.submitButton {
     margin-top: 25px;
 }
 
-.phonenumberlabel{
-    padding:0;
+.phonenumberlabel {
+    padding: 0;
     margin: 0px !important;
+}
+
+.left {
+    display: flex;
+    justify-content: end;
+}
+
+.code {
+    border: 3px solid #F0F0F0;
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 389px;
+}
+
+.code-container {
+    display: flex;
+}
+
+.validation-code-input {
+    width: 10px;
+    /* border-bottom: 1px solid black; */
+    margin-right: 10px;
+}
+
+.submitButton-code {
+    background-color: #7600FF;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'heavy';
+    font-size: 17px;
+    width: 396px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.red-border {
+    border: 3px solid #FF0000;
+}
+
+.validation-code-input::placeholder {
+    color: black;
+}
+
+.duration-text {
+    font-size: 12px;
+    font-family: 'heavy';
+    text-align: center;
+    color: #000000;
+}
+
+.incorrect-text {
+    text-align: center;
+    color: #FF0000;
+    font-size: 14px;
+    font-family: 'heavy';
+}
+
+.confirmation-title {
+    font-size: 24.75px;
+    font-family: 'black';
+    color: #000000;
+
+}
+
+.confirmation-subtitle {
+    font-size: 11px;
+    font-family: 'heavy';
+    text-align: center;
+}
+
+.confirmation-contact {
+    color: #7600FF;
+    font-size: 16px;
+    font-family: 'heavy';
+}
+
+/* .divider-text::before {
+    color: #E8E8E8;
+    content: "-";
+    width: 163.5px;
+    height: 2px;
+
+}
+
+.divider-text::after {
+    color: #E8E8E8;
+    content: "-";
+    width: 163.5px;
+    height: 2px;
+
+
+} */
+.rtl{
+    direction: rtl;
+}
+.divider{
+    text-align: center;
+}
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+}
+.divider-inner{
+    width: 163.5px;
+    height: 2px;
+    background-color: #E8E8E8;
+   
+}
+.divider-text{
+    margin: 0px !important;
+    font-size: 11px;
+    font-family: 'heavy';
+    color:#000000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    width: 35px;
+    height: 35px;
+}
+.image img{
+    width: 100%;
+}
+
+.input-label{
+    color: #A3A3A3;
+    font-size: 10px;
+    font-family: 'medium';
+}
+.input-email-container{
+width: 389px;
+border-radius: 20px;
+    border: 3px solid #F0F0F0;
+}
+
+.email-input{
+    width: 90%;
+    padding-right:5px ;
+
+}
+
+.email-submit-button{
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    background-color: #D9D9D9;
+    color: white;
+    cursor: pointer;
+    font-family: 'heavy';
+    font-size: 17px;
+    width: 396px;
+    margin-top: 25px;
+
+}
+.apple-logo{
+    width: 34px;
+    height: 34px;
 }

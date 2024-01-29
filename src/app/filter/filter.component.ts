@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
-import {CardInterface} from '../card/card-interface'
+import {CardInterface} from '../card/card-interface';
 @Component({
   selector: 'app-filter',
   templateUrl: './filter.component.html',

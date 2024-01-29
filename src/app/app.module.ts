@@ -26,6 +26,7 @@ import { SigninComponent } from './signin/signin.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SearchResultsComponent } from './search-results/search-results.component';
 @NgModule({
   declarations: [
 
@@ -46,6 +47,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderCarouselComponent,
     DatepickerComponent,
     SigninComponent,
+    SearchResultsComponent,
 
   ],
   imports: [
