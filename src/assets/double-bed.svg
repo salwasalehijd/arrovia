@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.879" height="13.136" viewBox="0 0 20.879 13.136">
+  <g id="double-bed" transform="translate(0 -82.36)">
+    <g id="King_Size_Bed" transform="translate(0 82.36)">
+      <path id="Path_582" data-name="Path 582" d="M20.879,224.872v2.147H0v-2.147a.754.754,0,0,1,.752-.752H20.127A.754.754,0,0,1,20.879,224.872Z" transform="translate(0 -217.456)"/>
+      <path id="Path_583" data-name="Path 583" d="M20.879,301.8v.211a.752.752,0,0,1-.752.752H.752A.752.752,0,0,1,0,302.011H0V301.8Z" transform="translate(0 -291.485)"/>
+      <path id="Path_584" data-name="Path 584" d="M45.056,338.28v.73a.377.377,0,0,1-.376.376h-1.5a.377.377,0,0,1-.376-.376v-.73Z" transform="translate(-40.788 -326.25)"/>
+      <path id="Path_585" data-name="Path 585" d="M355.616,338.28v.73a.377.377,0,0,1-.376.376h-1.5a.377.377,0,0,1-.376-.376v-.73Z" transform="translate(-336.749 -326.25)"/>
+      <path id="Path_586" data-name="Path 586" d="M52.48,83.864v4.46H50.885v-.854a1.405,1.405,0,0,0-1.4-1.4h-3.7a1.4,1.4,0,0,0-1.4,1.4v.854H42.977v-.854a1.4,1.4,0,0,0-1.4-1.4h-3.7a1.405,1.405,0,0,0-1.4,1.4v.854H34.88v-4.46a1.509,1.509,0,0,1,1.5-1.5H50.976a1.509,1.509,0,0,1,1.5,1.5Z" transform="translate(-33.24 -82.36)"/>
+      <path id="Path_587" data-name="Path 587" d="M89.8,177.891v.854h-5v-.854a.651.651,0,0,1,.651-.651h3.7a.648.648,0,0,1,.651.646Z" transform="translate(-80.814 -172.78)"/>
+      <path id="Path_588" data-name="Path 588" d="M258.038,177.891v.854h-5v-.854a.648.648,0,0,1,.646-.651h3.7A.651.651,0,0,1,258.038,177.891Z" transform="translate(-241.145 -172.78)"/>
+    </g>
+  </g>
+</svg>

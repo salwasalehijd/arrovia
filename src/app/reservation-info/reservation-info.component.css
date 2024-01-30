@@ -1,0 +1,57 @@
+.info h3{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.info{
+    display: block;
+    text-align: right;
+}
+
+.info .line{
+    display: flex;
+    gap: 70px;
+    justify-content: right;
+}
+.info .line .flex{
+    display: flex;
+    gap: 10px;
+}
+
+.information{
+display: flex;
+gap: 20px;
+}
+.information .map{
+width: 45%;
+}
+.information .info{
+    width: 55%;
+    }
+
+    .map h3{
+        text-align: right;
+        padding-bottom: 20px;
+    }
+    .map .img{
+        
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .map .img img{
+        width: inherit;
+        height:inherit;
+    }
+ .title{
+    font-family: 'black';
+    font-size: 22px;
+ }
+ .description-title{
+    font-size: 15px;
+    font-family: 'heavy';
+ }
+
+ .description-subtitle{
+    font-size: 17px;
+    font-family: 'heavy';
+ }

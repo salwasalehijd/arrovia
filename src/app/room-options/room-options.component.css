@@ -1,0 +1,81 @@
+/* responsive-table.component.css */
+
+table {
+    width: 100%;
+    border:unset;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    
+    padding: 8px;
+    text-align: right;
+  }
+  
+  .image-cell {
+    max-width: 100px; /* Adjust the max-width as needed */
+    text-align: right;
+  }
+  .image-cell-label {
+   
+    text-align: right;
+  }
+  .image-cell img{
+    width: 60px;
+  }
+  thead {
+    background-color: white;
+}
+input[type="number"] {
+    width: 55px;
+    border: unset;
+    border-radius: 5px;
+    text-align: right;
+}
+.button{
+    
+    
+    text-align: center;
+}
+.button-style{
+    padding: 12px 20px;
+    background-color: #7600FF;
+    border-radius: 10px;
+    color: white;
+}
+  .room-label{
+    text-align: right;
+    font-size: 22px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'black';
+}
+  
+  @media (max-width: 600px) {
+    th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    .image-cell {
+      max-width: none; /* Override max-width for smaller screens */
+    }
+  }
+  .title{
+    font-size: 16px;
+    font-family: 'heavy';
+  }
+
+  .space{
+    font-size: 16px;
+    font-family: 'heavy';
+  }
+
+  .price{
+    font-size: 16px;
+    font-family: 'black';
+  }
+  .button-style{
+    font-family: 'black';
+    font-size: 17px;
+  }

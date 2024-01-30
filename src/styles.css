@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;background-color: #FAFAFA; }
+.bs-media-container.ng-tns-c1108778392-1.ng-star-inserted {
+    gap: 100px;
+}
+
+.bs-datepicker-head {
+    background-color: unset !important;
+ 
+}
+
+.bs-datepicker-body {
+    border: unset;
+}
+
+span {
+    color: black;
+}
+th.ng-star-inserted {
+    color: black !important;
+}
+
+span.ng-star-inserted {}
+
+span ::before {
+    color: white !important;
+    content: unset !important;
+}
+.bs-datepicker.ng-tns-c1108778392-0.theme-green.ng-star-inserted {
+    border-radius: 15px;
+} 
+.bs-datepicker .bs-media-container {
+    display: flex;
+    gap: 100px;
+}   
+.bs-media-container.ng-tns-c1605629751-0.ng-star-inserted {
+    margin-bottom: 50px;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'black';
+    src: url(../src/assets/fonts/AvenirArabic-Black.otf);
+}
+@font-face {
+    font-family: 'book';
+    src: url(../src/assets/fonts/AvenirArabic-Book.otf);
+}
+@font-face {
+    font-family: 'heavy';
+    src: url(../src/assets/fonts/AvenirArabic-Heavy.otf);
+}
+@font-face {
+    font-family: 'light';
+    src: url(../src/assets/fonts/AvenirArabic-Light.otf);
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url(../src/assets/fonts/AvenirArabic-Medium.otf);
+}

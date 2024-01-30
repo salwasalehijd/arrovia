@@ -1,0 +1,27 @@
+
+<div class="hotel-details">
+    <div class="left">
+      <div class="up">
+        <div class="left">
+          <p class="grey-sm">الفئة / التصنيف</p>
+          <p class="black">{{ category }}</p>
+        </div>
+        <div class="right">
+          <p>{{ hotelName }}</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="down">
+        <p class="grey thirteen-heavy">عدد النجوم الفندقية</p>
+        <p>{{  starRating }}</p>
+        <p class="grey thirteen-heavy">مميزات</p>
+        <ng-container *ngFor="let feature of features">
+          <p class="features">{{ feature }}</p>
+        </ng-container>
+      </div>
+    </div>
+    <div class="right">
+      <p class="description">{{ description }}</p>
+    </div>
+  </div>

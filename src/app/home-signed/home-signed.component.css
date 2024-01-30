@@ -1,0 +1,358 @@
+:root {
+    --violet: #7600FF;
+    --black: #000000;
+}
+
+
+.header{
+
+    background-color:rgba(56, 68, 68, 0.521);
+    color: var(--violet);
+    height:206px;
+    display: flex;
+    justify-content: space-between;
+
+}
+body{
+    background-color: #FAFAFA;
+}
+
+.header-content{
+    display: flex;
+    gap: 15px;
+    
+    margin-top: 28px;
+    color: #7600FF;
+    color: var(--violet);
+}
+
+    .header-logo {
+        
+        margin-top: 28px;
+    }
+    .header-content h6{
+        padding: 10px;
+        color: var(--violet);
+
+        
+    }
+    .add-h6 {
+        background-color: white;
+        color: var(--violet);
+        border-radius: 20px;
+    }
+    .lang{
+        display: flex;
+    }
+
+    .body-content{
+
+        width: 80%;
+        margin: auto;
+
+    }
+
+.navigation{
+    text-align: right;
+    padding:10px;
+}
+
+.hotel{
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    gap: 10px;
+}
+h6.num {
+    background-color: #7600FF;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px; 
+    
+}
+.num-rate{
+    margin:auto;
+    text-decoration: underline;
+}
+
+.reserve{
+     display: flex;
+    justify-content: space-between;
+    text-align: right;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+.reserve-2-price{
+    display: flex;
+    gap: 10px;
+}
+.reserve-1{
+    display: flex;
+}
+.reserve-2{
+    display: block;
+}
+.reserve-3{
+    display: block;    
+}
+.reserve-4{
+    display: block;
+}
+.reserve-4-time{
+    display: flex;
+    gap: 10px;
+}
+.reserve-5{
+    display: block;
+}
+.reserve p {
+    margin: initial;
+}
+
+.p-auto[_ngcontent-ng-c2626861944] {
+    margin: auto;
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7600FF;
+}
+.reserve-1 p{
+    margin: auto;
+    padding: 10px 50px;
+    background-color: #7600FF;
+    border-radius: 10px;
+}
+
+
+.hotel-details{
+    display: flex;
+    gap: 30px;
+    
+}
+.hotel-details .left{
+width: 45%;
+}
+.hotel-details .right{
+    width: 55%;
+    display: block;
+    text-align: right;
+    }
+
+.hotel-details .left .up{
+display: flex;
+background-color: white;
+border-radius: 20px;
+padding: 10px 20px;
+}
+.hotel-details .left .up .left{
+    display: block;
+    text-align: right;
+    width: 70%;
+    padding-right: 15px;
+   
+
+    }
+    .hotel-details .left .up .right{
+        display: block;
+        text-align: center;
+        width: 30%;
+    
+        }
+
+.hotel-details .left .down{
+    display: block;
+    text-align: right;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}   
+
+
+
+.icons h3{
+    text-align: right;
+}
+.icons{
+    display: block;
+    text-align: right;
+}
+
+.icons .line{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+.icons .line .flex{
+    display: flex;
+    gap: 10px;
+}
+
+.info h3{
+    text-align: right;
+}
+.info{
+    display: block;
+    text-align: right;
+}
+
+.info .line{
+    display: flex;
+    gap: 70px;
+    justify-content: right;
+}
+.info .line .flex{
+    display: flex;
+    gap: 10px;
+}
+
+.information{
+display: flex;
+gap: 20px;
+}
+.information .map{
+width: 45%;
+}
+.information .info{
+    width: 55%;
+    }
+
+    .map h3{
+        text-align: right;
+    }
+    .map .img{
+        
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .map .img img{
+        width: inherit;
+        height:inherit;
+    }
+
+
+    .hotel-rate{
+display: flex;
+    }
+
+    .name {
+        display: flex;
+        gap: 20px;
+    }
+    .hotel-rate{
+        display: block;
+        justify-content: end;
+        gap: 15px;
+    }
+    .hotel-div1{
+        display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+    
+
+    .hotel-rate .num-rate2{
+    
+    }
+    .hotel-rate .block{
+        display: flex;
+    width: 170px;
+    flex-direction: column;
+        
+    }
+    .hotel-rate .flex{
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+    }
+
+    .hotel-rate .rate-flex{
+        display: flex;
+        height: 20px;
+        gap: 15px;
+    }
+
+    .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+        margin: auto;
+      }
+      .rate-dec{
+
+        color:#7600FF;
+      }
+      
+      /* Individual bars */
+      .bar-5 {width: 60%; height: 2.5px; background-color: #7600FF;}
+      .bar-4 {width: 30%; height: 2.5px; background-color: #7600FF;}
+      .bar-3 {width: 10%; height: 2.5px; background-color: #7600FF;}
+      .bar-2 {width: 4%; height: 2.5px; background-color: #7600FF;}
+      .bar-1 {width: 15%; height: 2.5px; background-color: #7600FF;}
+      
+      .bar-num{
+        margin: auto;
+      }
+      .rate-label{
+        text-align: right;
+      }
+
+      .hotel-rate .user {
+        display: flex;
+        gap: 10px;
+
+      }
+      
+
+      .hotel-rate .user .flex1 {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-end;
+      }
+      .hotel-rate .user .card{
+        display: block;
+        background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+      }
+      .hotel-rate .user .card .text p{
+        text-align: right;
+      }
+      .card .img{
+        width: 30px;
+        height: 30px;
+      }
+      .card img{
+        width: 20px;
+        border: 2px solid #7600FF;
+        border-radius: 50%;
+      }
+      .imgs-sm{
+display: block; 
+      }
+      .images{
+        display: flex;
+      }
+      .imgs-sm{
+        width: 300px;
+        height: 300px;
+      }
+      .imgs-sm img{
+        width: 300px;
+        
+      }
+      .imgs-lg img{
+        width: 600px;
+        
+      }
+      .user .name{
+        color: #7600FF; 
+      }

@@ -1,0 +1,35 @@
+.col-xs-12.col-12.col-md-4.form-group.mb-3 {
+    margin: auto;
+}
+span {
+    color: black;
+}
+.theme-green .bs-datepicker-head {
+    background-color: unset;
+}
+.bs-datepicker-body {
+    border: unset;
+}
+.bs-datepicker .bs-media-container {
+    display: flex;
+    gap: 100px !important  ;
+}
+.bs-media-container.ng-tns-c1108778392-0.ng-star-inserted {
+    gap: 100px;
+}
+/* custom-styles.css */
+
+/* Customize the background color */
+.datepicker-dropdown {
+    background-color: #ffffff;
+  }
+  
+  /* Customize the font color */
+  .datepicker-dropdown td, .datepicker-dropdown th {
+    color: #333333;
+  }
+  
+  /* Add any other custom styles as needed */
+  h6.num_rate_1 {
+    margin: auto;
+}

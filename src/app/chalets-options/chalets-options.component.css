@@ -1,0 +1,26 @@
+.icons h3{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.icons{
+    display: block;
+    text-align: right;
+}
+
+.icons .line{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+.icons .line .flex{
+    display: flex;
+    gap: 10px;
+}
+.title{
+    font-size: 22px;
+    font-family: 'black';
+}
+.description{
+    font-family: 'heavy';
+    font-size: 17px;
+}
