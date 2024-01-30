@@ -20,20 +20,24 @@ export class NavbarComponent {
   }
 
   isHomeRoute: boolean = false;
+ 
 
   constructor(private router: Router,public dialog: MatDialog) {
-    this.router.events.pipe(
-    filter((event): event is NavigationEnd => event instanceof NavigationEnd)
-    ).subscribe((event: NavigationEnd) => {
-      this.isHomeRoute = event.urlAfterRedirects === '/home';
-    });
-
-
+  this.HomeRoute();
   }
+  HomeRoute(){
+    this.router.events.pipe(
+      filter((event): event is NavigationEnd => event instanceof NavigationEnd)
+      ).subscribe((event: NavigationEnd) => {
+        this.isHomeRoute = event.urlAfterRedirects === '/home' ;
+        // console.log(this.isHomeRoute)
+      });
+  }
+
   openDialog() {
     const dialogRef = this.dialog.open(SigninComponent);
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
+     
     });
   }
 }

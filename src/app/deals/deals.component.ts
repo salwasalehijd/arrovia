@@ -14,6 +14,7 @@ export class DealsComponent {
     dots: true,
     navSpeed: 700,
     navText: ['', ''],
+    rtl:true,
     responsive: {
       0: {
         items: 1

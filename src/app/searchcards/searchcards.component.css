@@ -2,6 +2,7 @@
     direction: rtl;
     background-color: #FFFFFF;
     height: 232px;
+    border-radius: 20px !important;
     /* padding-left: 10%;
     padding-right: 10%; */
 }
@@ -73,6 +74,7 @@ mat-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .search-icon-container{

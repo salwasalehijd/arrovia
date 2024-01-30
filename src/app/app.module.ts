@@ -21,12 +21,12 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchcardsComponent } from './searchcards/searchcards.component';
 import { HeaderCarouselComponent } from './header-carousel/header-carousel.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SigninComponent } from './signin/signin.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SearchResultsComponent } from './search-results/search-results.component';
+
 @NgModule({
   declarations: [
 
@@ -45,9 +45,10 @@ import { SearchResultsComponent } from './search-results/search-results.componen
     NavbarComponent,
     SearchcardsComponent,
     HeaderCarouselComponent,
-    DatepickerComponent,
+
     SigninComponent,
     SearchResultsComponent,
+
 
   ],
   imports: [
