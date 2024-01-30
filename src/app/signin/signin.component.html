@@ -14,8 +14,7 @@
 
       <div class="input-container" [ngClass]="{
                 'green-border': loginFormPhone.get('phoneNumber')?.valid
-                   
-              }">
+                  }">
 
         <input type="text" placeholder="50xxxxxxxx" formControlName="phoneNumber">
         <div class="areacode">
@@ -32,8 +31,7 @@
 
 
     <form [formGroup]="validationFormPhone" *ngIf="codeFormPhoneView">
-      <div class="code"
-       [ngClass]="{
+      <div class="code" [ngClass]="{
         'green-border': validationFormPhone?.valid,
         'red-border': !validationFormPhone?.valid && validationFormPhone.touched==true
       }">
@@ -61,7 +59,7 @@
         <p class="input-label">
           البريد الإلكتروني
         </p>
-        <input type="text" placeholder="name@company.com" class="email-input">
+        <input type="email" placeholder="name@company.com" class="email-input">
       </div>
       <button type="submit" class="submitButton ">المتابعة</button>
 
@@ -76,13 +74,17 @@
 
   <div class="signin-options">
     <div class="icons">
-      <div class="image pointer"  (click)="viewPhoneLogin()"  *ngIf="phoneButton"><img src="../../assets/aroovia-icons/phone-call-2.svg" alt=""
-         ></div>
-      <div class="image pointer" (click)="viewEmailLogin()" *ngIf="emailButton"><img src="../../assets/aroovia-icons/email-3.svg" alt="" >
+      <div class="image pointer" (click)="viewPhoneLogin()" *ngIf="phoneButton"><img
+          src="../../assets/aroovia-icons/phone-call-2.svg" alt=""></div>
+      <div class="image pointer" (click)="viewEmailLogin()" *ngIf="emailButton"><img
+          src="../../assets/aroovia-icons/email-3.svg" alt="">
       </div>
       <div class="image pointer"><img src="../../assets/aroovia-icons/apple-logo.svg" alt="" class="apple-logo"></div>
       <div class="image pointer"><img src="../../assets/aroovia-icons/google-2.svg" alt=""></div>
       <div class="image pointer"><img src="../../assets/aroovia-icons/facebook-2.svg" alt=""></div>
     </div>
+    <p class="icon-text">
+      عند التسجيل في الموقع، تعتبر موافقة على الشروط والأحكام
+    </p>
   </div>
 </mat-dialog-content>

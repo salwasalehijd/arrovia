@@ -5,17 +5,34 @@
 
 .contianer{
     direction: rtl;
-    padding: 10%;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 42px;
   
+}
+.flex-arrow{
+    display: flex;
+align-items: start;
+
+}
+.flex-filter{
+    display: flex;
+    align-items: start;
 }
 .title{
     font-size: 24.75px;
    font-family: 'black';
+
 }
 .filter-title{
     font-family: 'black';
+    color: #7600FF;
+    margin-left:10px;
 }
 .just{
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+.flex-arrow mat-icon{
+    margin-left: 15px;
 }

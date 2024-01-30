@@ -1,7 +1,7 @@
 
 <div class="contianer">
     <div class="just flex">
-        <div class="flex">
+        <div class="arrow-flex">
             <div class="arrow-icon">
                 <mat-icon class="purple-arrow">arrow_back</mat-icon>
             </div>
@@ -25,7 +25,22 @@
       
     </div>
     <div class="cards">
-        <app-card [cards]="carddetails"></app-card>
+        <!-- <app-card [cards]="carddetails"></app-card>
+     <owl-carousel-o [options]="customOptions">
+            <ng-container *ngFor="let card of carddetails">
+              <ng-template carouselSlide >
+                <img [src]="card.image" >
+              </ng-template>
+            </ng-container>
+     </owl-carousel-o>  -->
+     <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let card of carddetails">
+          <ng-template carouselSlide>
+            <app-card [cards]="[card]"></app-card>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+      
     </div>
-</div>
+</div>               
 

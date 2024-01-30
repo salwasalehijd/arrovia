@@ -59,8 +59,7 @@ height: 184px;
     padding: 0;
     width: 102px;
     height: 31px;
-    border-radius: 10px;
-
+    border-radius: 20px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -70,8 +69,13 @@ height: 184px;
     text-decoration: none;
 
 }
+.add-padding{
+padding: 10px;
+}
 
 button p {
+    
+    white-space: nowrap;
     margin: 0px;
     font-family: 'black';
     font-size: 11px;
@@ -80,8 +84,8 @@ button p {
 
 .login {
     background-color: #7600FF;
-    width: 136px;
-    border-radius: 10px;
+    /* width: 136px; */
+    border-radius: 20px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -109,6 +113,7 @@ button p {
     display: flex;
 align-items: center;
 cursor: pointer;
+
 }
 .profile p{
     margin: 0px ;
@@ -136,7 +141,7 @@ margin-left:10px;
     display: flex;
     justify-content: center;
     position: absolute;
-    
+    background-color: white;
 }
 .languageLabel{
     font-size: 9.75px;

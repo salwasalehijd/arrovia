@@ -4,10 +4,10 @@
 }
 
 .contianer{
-    direction: rtl;
+   
     padding-left: 10%;
     padding-right: 10%;
-  
+  margin-bottom: 30px;
 }
 .title{
     font-size: 24.75px;
@@ -15,16 +15,27 @@
     font-family: 'black';
 }
 .filter-title{
-   
+   margin-left: 15px;
     color: #7600FF;
     font-family: 'black';
     font-size: 15.75px;
 }
 .just{
     justify-content: space-between;
-   
-}
+    direction: rtl;
+   }
 .filter-img{
     width: 22px;
     height: 20px;
+}
+.arrow-flex{
+    display: flex;
+    align-items: center;
+}
+
+.just.flex{
+    margin-bottom: 20px;
+}
+.arrow-icon{
+    padding-left: 15px;
 }

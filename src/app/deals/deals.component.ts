@@ -15,7 +15,8 @@ export class DealsComponent {
     navSpeed: 700,
     navText: ['', ''],
     rtl:true,
-    responsive: {
+   
+     responsive: {
       0: {
         items: 1
       },
@@ -23,10 +24,10 @@ export class DealsComponent {
         items: 1
       },
       740: {
-        items: 2.5
+        items: 2.75
       },
       940: {
-        items: 2.5
+        items: 2.75
       }
     },
     nav: false

@@ -24,19 +24,22 @@ app-recomended app-card .card-container {
     flex-wrap: nowrap !important;
     overflow-x: auto;
 }
-
+/* app-recomended app-card .card-container::-webkit-scrollbar {
+    display: none;
+  } */
 app-footer app-category-item .category-container {
 
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-app-deals .owl-item {
-    width: 460px !important;
-    height: 204px !important;;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+ 
+app-deals .owl-carousel .owl-item img {
+    width: 460px;
+    height: 204px;
+    /* object-fit: cover;  */
+    /* display: block;  */
+  }
 
 app-deals .owl-dots span {
     /* width: 12px; */

@@ -3,6 +3,8 @@
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
+    padding-top: 28px;
+    padding-bottom: 18px;
 }
 .category-item{
     display: flex;

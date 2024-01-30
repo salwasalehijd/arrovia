@@ -1,14 +1,21 @@
 .purple-arrow{
     color: #7600FF;
     font-weight: 900;
+    padding-left: 15px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contianer{
     direction: rtl;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 3%;
+    padding-bottom: 24px;
     padding-top: 10%;
+    background-color: #FAFAFA;
 }
 .title{
     font-size: 24.75px;
@@ -22,4 +29,7 @@
 .just{
     justify-content: space-between;
    
+}
+.margin{
+    margin-bottom: 20px;
 }

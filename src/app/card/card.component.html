@@ -1,40 +1,40 @@
 <div class="card-container">
-    <div class="card" *ngFor="let card of cards">
-        <div class="card-img">
-            <div class="heart">
-                <div class="heart-circle">
+  <div class="card" *ngFor="let card of cards">
+    <div class="card-img">
+      <div class="heart">
+        <div class="heart-circle">
 
-                </div>
-                <mat-icon class="heart-icon">favorite</mat-icon>
-            </div>
-            <img src="{{card.image}}" alt="">
         </div>
-        <div class="title-rating flex">
-          <div class="title">
-            <p>{{card.title}}</p>
-          </div>
-          <div class="rating ">
-            <p>{{card.raiting}}</p>
-          </div>
-        </div>
-        <div class="location flex muted">
-        <p>    {{card.location_city}}</p>
-        <div class="comma">
-            <p>،</p>
-        </div>
-        <p>{{card.location_country}}</p>
-        </div>
-        <div class="rate">
-            <div class="price">
-              
-                <p>{{card.price}}</p>
-                <p>{{card.currency}}</p>
-            </div>
-              <div>
-                <p class="muted modify-font" >{{card.duration}}</p>
-              </div>
-            
-            
-        </div>
+        <mat-icon class="heart-icon">favorite</mat-icon>
+      </div>
+      <img src="{{card.image}}" alt="">
     </div>
+    <div class="title-rating flex">
+      <div class="title">
+        <p>{{card.title}}</p>
+      </div>
+      <div class="rating ">
+        <p>{{card.raiting}}</p>
+      </div>
+    </div>
+    <div class="location flex muted">
+      <p> {{card.location_city}}</p>
+      <div class="comma">
+        <p>،</p>
+      </div>
+      <p>{{card.location_country}}</p>
+    </div>
+    <div class="rate">
+      <div class="price">
+
+        <p>{{card.price}}</p>
+        <p>{{card.currency}}</p>
+      </div>
+      <div>
+        <p class="muted modify-font">{{card.duration}}</p>
+      </div>
+
+
+    </div>
+  </div>
 </div>

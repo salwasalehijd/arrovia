@@ -19,17 +19,6 @@ images:any[]=[
   title:'القاهرة',
   imgsrc:'assets/aroovia-icons/cairo.png'
 },
-{
-  title:'الرياض',
-  imgsrc:'assets/aroovia-icons/riyad.png'
-},
-{
-  title:'دبي',
-  imgsrc:'assets/aroovia-icons/dubai.png'
-},
-{
-  title:'القاهرة',
-  imgsrc:'assets/aroovia-icons/cairo.png'
-}
+
 ]
 }
