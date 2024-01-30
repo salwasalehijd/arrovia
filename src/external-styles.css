@@ -106,3 +106,7 @@ app-header-carousel .owl-dots{
 .pointer{
     cursor: pointer;
 }
+app-footer app-app-category-item{
+    padding-top:18px;
+    padding-top:20px;
+}
