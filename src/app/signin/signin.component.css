@@ -270,12 +270,13 @@ button.submitButton {
 width: 389px;
 border-radius: 20px;
     border: 3px solid #F0F0F0;
+    margin-top:66px;
 }
 
 .email-input{
     width: 90%;
     padding-right:5px ;
-    margin-top: 66px;
+   
 
 }
 

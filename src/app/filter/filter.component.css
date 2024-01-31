@@ -5,10 +5,12 @@
 }
 .flex{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
-
+.filter-title{
+    margin-left: 10px;
+}
 .contianer{
     direction: rtl;
     padding-left: 10%;

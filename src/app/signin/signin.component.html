@@ -4,8 +4,8 @@
     <mat-icon mat-button mat-dialog-close>close</mat-icon>
   </div>
   <div class="container">
-    <p class="greeting" *ngIf="loginFormPhoneView">أهلا بك</p>
-    <div class="confirmation-contianer" *ngIf="! loginFormPhoneView">
+    <p class="greeting" *ngIf="loginFormPhoneView || loginEmailForm">أهلا بك</p>
+    <div class="confirmation-contianer" *ngIf="codeFormPhoneView">
       <p class="confirmation-title">كود التحقق</p>
       <p class="confirmation-subtitle">تم ارساله إلى</p>
       <p class="confirmation-contact">966506060381+</p>

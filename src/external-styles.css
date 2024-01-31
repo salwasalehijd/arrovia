@@ -81,7 +81,7 @@ app-deals .owl-dots.active span {
 }
 
 
-app-header-carousel .owl-dot.active span{
+app-deals .owl-dot.active span{
     border:0.5px solid black;
     background-color: white !important;
     width: 12px;

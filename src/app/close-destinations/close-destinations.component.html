@@ -3,17 +3,18 @@
         <img src="../../assets/aroovia-icons/Icon feather-arrow-left.svg" alt="" class="arrow-img">
         <p class="title">وجهات قريبة</p>
     </div>
-    <div class="flex">
 
-        <div class="item" *ngFor="let image of images">
-            <div class="image">
-                <img src={{image.imgsrc}} alt="">
-                <p class="title-name">{{image.title}}</p>
-            </div>
-
-            <div class="title">
-
-            </div>
-        </div>
-    </div>
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let image of images">
+            <ng-template carouselSlide>
+                <div class="item">
+                    <div class="image">
+                        <img [src]="image.imgsrc" alt="">
+                        <p class="title-name">{{image.title}}</p>
+                    </div>
+                    <div class="title"></div>
+                </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
 </div>
