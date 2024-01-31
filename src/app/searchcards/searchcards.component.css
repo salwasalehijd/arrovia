@@ -1,4 +1,4 @@
-.container{
+.container {
     direction: rtl;
     background-color: #FFFFFF;
     height: 232px;
@@ -6,67 +6,80 @@
     /* padding-left: 10%;
     padding-right: 10%; */
 }
-.title{
+
+.title {
     font-size: 9.75px;
     font-family: 'medium';
 }
-input{
+
+input {
     border: none;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 21.75px;
     font-family: 'black';
     color: #D9D9D9;
 }
-.box{
-    width: 25%;
+
+.box {
+    width: 340px;
     border: 3px solid #F0F0F0;
     border-radius: 10px;
     height: 123px;
 }
-.cont-pad{
+
+.cont-pad {
     padding-right: 31px;
     padding-top: 15px;
-    
+
 }
 
-.padding{
+.padding {
     display: flex;
     gap: 20px;
     /* border: 1px solid black; */
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+    justify-content: space-evenly;
+    padding-top: 44px;
+    padding-bottom: 65px;
+    padding-left:37px;
+    padding-right:37px;
+
 }
 
-.input p{
+.input p {
     font-size: 21.75px;
     font-family: 'black';
     color: #D9D9D9;
     padding-left: 10px;
-} 
-.input{
+}
+
+.input {
     display: flex;
     align-items: start;
 }
-mat-icon{
+
+mat-icon {
     color: #D9D9D9;
 }
-.flex-date{
+
+.flex-date {
     display: flex;
     justify-content: space-evenly;
 }
-.shadow{
+
+.shadow {
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.16);
     border-radius: 20px;
 }
-mat-icon{
+
+mat-icon {
     color: white;
     width: 20.07px;
     height: 20.07px;
 }
-.search-icon{
+
+.search-icon {
     height: 71px;
     width: 72px;
     background-color: #7600FF;
@@ -77,12 +90,13 @@ mat-icon{
     cursor: pointer;
 }
 
-.search-icon-container{
+.search-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -27px;
 }
+
 @media screen and (max-width: 800px) {
     .padding {
         flex-direction: column;
@@ -90,14 +104,26 @@ mat-icon{
         padding-right: 20px;
     }
 
-    .box{
+    .box {
         width: 100%;
-          }
-    .search-icon-container{
-        
-        margin-top:255px;
+    }
+
+    .search-icon-container {
+
+        margin-top: 255px;
     }
 }
-.width{
-    width: 80%;
+
+.width {
+    /* width: 1124px; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 1199px){
+
+    .width{
+        width: 80%;
+    }
 }

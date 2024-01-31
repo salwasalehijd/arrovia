@@ -79,3 +79,21 @@ margin-bottom: 16px;
     border-top: 2px solid #E8E8E8;
     padding-top: 16.28px;
 }
+
+
+@media screen and (max-width: 800px){
+.footer-list{
+    flex-direction: column;
+}
+.terms-and-conditions{
+    flex-direction: column;  
+}
+.footer-container{
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+}
+.icons.list{
+    justify-content: start;
+}
+}

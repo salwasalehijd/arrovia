@@ -39,7 +39,7 @@ searchRoute(){
     filter((event):event is NavigationEnd => event instanceof NavigationEnd)
     ).subscribe(
       (event:NavigationEnd)=>{
-        this.isSearchRoute=event.urlAfterRedirects ==='/search'
+        this.isSearchRoute=event.urlAfterRedirects.startsWith('/search')
       });
   
 }

@@ -4,10 +4,23 @@
 
 <owl-carousel-o [options]="customOptions">
 
-    <ng-container *ngFor="let slide of slidesStore">
-      <ng-template carouselSlide >
-        <img [src]="slide.src" >
-      </ng-template>
-    </ng-container>
+  <ng-container *ngFor="let slide of slidesStore">
+    <ng-template carouselSlide>
+      <div class="container">
+        <img [src]="slide.src">
+        <div class="text">
+          <div class="text-inner">
+            <p class="title">
+              أهلا يزيد
 
-  </owl-carousel-o>
+            </p>
+            <p class="subtitle">
+              ماهي وجهتك القادمة؟
+            </p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </ng-container>
+
+</owl-carousel-o>

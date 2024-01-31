@@ -1,0 +1,25 @@
+.title{
+    color: #7600FF;
+    font-size: 47.75px;
+    font-family: 'black';
+    margin-bottom: 40px;
+}
+.container{
+    position: relative;
+}
+.text{
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    top: 50%;
+    right: 10%;
+}
+.subtitle{
+    font-size: 28.75px;
+    font-family: 'medium';
+}
+.text-inner{
+    display: flex;
+    flex-direction: column;
+
+    align-items: end;
+}
